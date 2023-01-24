@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Title>$(AssemblyName)</Title>
+        <PackageProjectUrl>https://github.com/semi-design-blazor/Semi.Design.Blazor.Extensions.Languages.Razor</PackageProjectUrl>
+        <PackageIcon>logo.png</PackageIcon>
+        <PackageReadmeFile>README.zh-CN.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="D:\Blazor\semi\Semi.Design.Blazor.Languages.Razor\packageIcon.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\..\logo.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="$(MicrosoftPackageVersion)" />
+        <PackageReference Include="Microsoft.CodeAnalysis.Razor" Version="$(MicrosoftPackageVersion)" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="README.zh-CN.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

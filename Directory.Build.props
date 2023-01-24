@@ -1,0 +1,25 @@
+<Project>
+    <PropertyGroup>
+        <MicrosoftPackageVersion>6.0.13</MicrosoftPackageVersion>
+        <PackageId>$(AssemblyName)</PackageId>
+        <Authors>Semi Design Blazor</Authors>
+		<VersionPrefix>0.0.2</VersionPrefix>
+        <Copyright>© Semi Design Blazor. All rights reserved.</Copyright>
+        <PackageIconUrl>logo.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/semi-design-blazor/Semi.Design.Blazor.Extensions.Languages.Razor</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="$(RepositoryRoot)packageIcon.png">
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+        </None>
+        <None Include="$(RepositoryRoot)LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+        </None>
+    </ItemGroup>
+</Project>

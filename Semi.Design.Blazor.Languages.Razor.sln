@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5352663-CB10-45FD-9D4F-2DF285B179E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Design.Blazor.Languages.Razor", "src\Semi.Design.Blazor.Languages.Razor\Semi.Design.Blazor.Languages.Razor.csproj", "{B3D60330-CB5D-40C3-A761-047953304D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3D60330-CB5D-40C3-A761-047953304D06} = {C5352663-CB10-45FD-9D4F-2DF285B179E9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D60330-CB5D-40C3-A761-047953304D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D60330-CB5D-40C3-A761-047953304D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D60330-CB5D-40C3-A761-047953304D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D60330-CB5D-40C3-A761-047953304D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
